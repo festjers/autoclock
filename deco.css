@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+     position: relative;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    padding: 20px 0px;
+}
+.content{
+ top: 50%;
+  margin-left: 250px;
+  position: absolute;
+  transform: translateY(-50%);
+  color: whitesmoke;
+}
+.lunch-time{
+   display: flex;
+}
+.lunch-time div{
+   flex-basis: 200px;
+   padding-left: 50px;
+}
+.lunch-time div p{
+    font-size: 50px;
+}
+@media(max-width:760px){
+    .content{
+        font-size: 10px;
+        position: absolute;
+        transform: translateY(-100%);
+        transform: translateX(-50%);
+        
+    }
+    
+}
