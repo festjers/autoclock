@@ -40,13 +40,8 @@
 @media screen and (max-width:800px){
    .content{
     font-size: 10px;
-    margin-right: 3000px;
     transform: translateY(-200%);
     transform: translatex(-70%);
-    margin-bottom: 250px;
    }
-   .content p{
-     margin-right: 5px
-   }
-    
+  
 }
